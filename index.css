@@ -1,0 +1,192 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03-Jul-2020, 12:17:17 PM
+    Author     : kadam_08
+*/
+
+* {
+    margin: 0; padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.header {
+
+    align-content: center;
+    padding: 20px;
+    text-align: center;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Left and right column */
+.column.side {
+    width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+    width: 100%;
+}
+
+nav {
+    position: fixed;
+    width: 320px;
+    height: 100%;
+    left: -320px;
+    overflow-x: hidden;
+    background: #d3e1ff4f;
+    transition: .4s;
+}
+
+nav .brand {
+    position: absolute;
+    color: #2B4C8C;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 32px 48px
+}
+
+nav label {
+    position: absolute;
+    right: 50px; top:35px;
+    padding: 5px 8px;
+    color: #2B4C8C;
+    font-size: 16px;
+    border: 2px solid;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .4s;
+}
+
+nav label:hover {
+    background: #2B4C8C;
+    color: #fff;
+}
+nav ul {
+    position: absolute;
+    top: 100px;
+}
+
+nav ul li {
+    padding: 25px 40px;
+    color: #2B4C8C;
+    width: 320px;
+    margin-left: -50px;
+    opacity: 0;
+    cursor: pointer;
+    transition: .4s;
+}
+
+nav ul li:hover {animation: hover .6s;}
+
+@Keyframes hover {
+    50% {trasnform: translateX(20px) scale(1.1);}
+}
+
+nav ul li i {font-size: 24px;}
+
+nav ul li a {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 500;
+    left: 80px;
+}
+
+label span {
+    position: absolute;
+    color: #2B4C8C;
+    border: 2px solid #2B4C8C;
+    width: 40px; height: 40px;
+    top: 20px; left: 20px;
+    border-radius: 50%;
+    padding: 9px;
+    font-size: 20px;
+    cursor: pointer;
+    transition:  .4s;
+}
+
+label span:hover {
+    color: #fff;
+    background: #2B4C8C;
+}
+
+input {display: none;}
+
+input:checked ~ label span {
+    opacity: 0;
+    pointer-events: none;
+}
+
+input:checked ~ nav {left: 0;}
+
+input:checked ~ nav ul li {
+    margin-left: 0;
+    opacity: 1;
+}
+
+input:checked ~ nav ul li:nth-child(1) {transition-delay:  .2s;}
+input:checked ~ nav ul li:nth-child(2) {transition-delay:  .4s;}
+input:checked ~ nav ul li:nth-child(3) {transition-delay:  .6s;}
+input:checked ~ nav ul li:nth-child(4) {transition-delay:  .8s;}
+
+nav.topmenu {
+    
+    background: #42BFDD;
+    color: #fff;
+    width: 360px;
+    height: 60px;
+    border-radius: 5px;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0 0 10px #BBE6E4;
+}
+
+nav.topmenu ul {
+    display: flex;
+}
+
+nav.topmenu ul .nav-item {
+    cursor: pointer;
+    display: grid;
+    padding: 20px;
+    text-transform: uppercase;
+    transition:  .2s linear;
+}
+
+nav.topmenu ul .nav-item:hover {
+    background: #084B83;
+}
+
+nav.topmenu ul .nav-item a{
+    color: #42BFDD;
+    transform: translateY(-5px);
+    transition:  .2s linear;
+}
+
+nav.topmenu ul .nav-item i {
+    transform: translateY(-5px);
+    font-size: 30px;
+    transition:  .2s linear;
+}
+
+nav.topmenu ul .nav-item:hover i {
+    transform: translateY(-14px) scale(.7);
+}
+
+nav.topmenu ul li:hover a {
+    color: #FFF;
+    transform: translateY(-14px);
+}
