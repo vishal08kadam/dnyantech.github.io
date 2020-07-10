@@ -1,1 +1,0 @@
-# dnyantech.github.io
