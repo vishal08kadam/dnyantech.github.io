@@ -4,17 +4,12 @@ body {
  background-repeat: no-repeat;
   background-attachment: fixed;
 !important; }
-#logo{
-  opacity: 0.6;
-  margin-left: 100px;
-  margin-right: 85px;
-  color: #A89B8D;
-}
+
 
 #brand{
 
   color: red;
-  margin-left: 220px;
+  
   font-size: 50px;
 
 }
@@ -25,8 +20,6 @@ body {
 
 #navbar{
   background-color: #CEC3A0;
-  margin-left: 100px;
-  margin-right: 85px;
   padding-left: 50px;
 
 }
@@ -35,10 +28,10 @@ body {
   background-color: #DEDEDE;
 }
 
+
 #navbar2{
   background-color: #CEC3A0;
-  margin-left: 100px;
-  margin-right: 100px;
+
     padding-left: 50px;
 
 }
@@ -47,8 +40,8 @@ body {
 
 /*submenu css begins*/
 #sidemenu{
-    width: 50px;
-    margin-left: 100px;
+
+
 
 
 }
@@ -88,8 +81,8 @@ body {
 #footer{
   opacity: 0.5;
   margin-top: 50px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
   background: black;
   padding: 20px 0;
 }
@@ -115,14 +108,7 @@ h4{
 
 
 /*news feed style*/
-#box{
-  height: 50%;
-  width: auto;
 
-  float: right;
-  margin-right: 10px;
-
-}
 
 #text1{
   text-align: justify;
@@ -134,9 +120,7 @@ h4{
   margin-top: 10px;
 }
 
-#news{
-  background-color: red;
-}
+
 #para{
   font-size: 30px;
   color: Black;
@@ -146,8 +130,8 @@ h4{
 
 .holder {
   background-color:#CEC3A0;
-  width:300px;
-  height:400px;
+  width:220px;
+  height:425px;
   overflow:hidden;
   padding:10px;
   font-family:Helvetica;
@@ -156,8 +140,7 @@ h4{
   position: relative;
   left: 0px;
   top: 10px;
-  width:290px;
-  height:400px;
+  width: 210px;
   overflow: hidden;
 }
 .holder ul {

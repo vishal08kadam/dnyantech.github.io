@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="new.css">
     <link rel="stylesheet" href="css/bootstrap.min.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scaleable=no">
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
   </script>
   <script src="js/bootstrap.min.js"></script>
@@ -45,63 +46,74 @@
 $(function(){
     $("ul#ticker01").liScroll();
 }); </script>
+
   </head>
   <body>
     <!--branding begins-->
-    <nav class="navbar navbar-light bg-light" id="logo">
-  <a class="navbar-brand" href="#" >
-    <p  class="font-weight-bold" id="brand">
-      Multi View Disciplinary Journal
-    </p>
-  </a>
-</nav>
+    <a class="nav-link" href="#">
+      <h1 align="center" id="brand">Multi View Disciplinary Journal</h1>
+      </a>
       <!--branding finish-->
-      <!--navigation bar begins-->
-      <nav class="navbar navbar-expand-lg navbar-light " id="navbar">
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto font-weight-bold" id="ul1">
-        <li class="nav-item active" style="background-color:#E47C0C">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Journals</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Current Issue</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Article Submission</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Guidelines</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Editorial Board</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">E-Payment</a>
-        </li>
+<!--navigation bar begins-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact us</a>
-        </li>
+          <nav class="navbar navbar-expand-lg navbar-light " id="navbar">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto font-weight-bold" id="ul1">
+            <li class="nav-item active" style="background-color:#E47C0C">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Journals</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Current Issue</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Article Submission</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Guidelines</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Editorial Board</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">E-Payment</a>
+            </li>
 
-      </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact us</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </nav>
+
+        </div>
+
+      </div>
 
     </div>
-  </nav>
-        <!--navigation bar finish-->
+    <!--navigation bar finish-->
 
 
-        <div class="fluid content" id="container1">
+
+        <div class="container-fluid" id="container1">
           <div class="row">
-            <div class="col-md-2" id="sidemenu">
+            <div class="col-3 col-sm-3 col-lg-3 col-md-3 col-xl-3" id="sidemenu">
 
-              <a class="active nav-link" href="index.html" style="color:black">Home</a>
+              <a class="active nav-link" href="#" style="color:black">Home</a>
               <a class="nav-link" href="#">About Us</a>
               <a class="nav-link" href="#">Journals</a>
               <a class="nav-link" href="#">Current Issue</a>
@@ -113,19 +125,21 @@ $(function(){
 
             </div>
 
-            <div class="col-sm-6 col-md-6" id="text1">
-              <div >
+            <div class="col-7 col-sm-7 col-lg-7 col-md-7 col-xl-7" id="text1">
+              <p >
 <b>
 Dear <br>
 Indian Scholar is an International open access, online journal, published quarterly (March, June, September, and December) and devoted to disseminate, scholarly studies and research in Arts and Humanities
 The Journal publishes general issues issues pertaining to social problems, causes and innovative resolution practices implemented successfully in one part society for updating to benefit of society. It further aims to provide a platform to young Research Scholars to get due recognition for their work.
 Welcome to Research Scholar and experience a change to bring about a change in the world through your innovative and intellectual thoughts.
 We hope you find it as exciting and vital as we do! <br>
-Dr. Jitendra Arolia </b>
-            </div>
+
+Dr. Jitendra Arolia <br>
+
+</p>
             </div>
 
-            <div class="col-md-3" id="box">
+            <div class="col-2 col-sm-2 col-lg-2 col-md-2 col-xl-2">
               <div class="holder">
                 <p style="text-align:center" id="para">
                   <b>News</b>
@@ -156,13 +170,13 @@ Dr. Jitendra Arolia </b>
 
 <!--footer begins-->
 <div id="footer"><!--#footer begins-->
-  <div class="container"><!--container begins-->
+  <div class="container-fluid"><!--container begins-->
     <div class="row"><!--row begins-->
-      <div class="col-sm-6 col-md-3"><!--col-sm-6 col-md-3 begins-->
+      <div class="col-4 col-sm-4 col-md-4 col-xl-4"><!--col-sm-6 col-md-3 begins-->
         <h4>Pages</h4>
         <ul><!--ul begins-->
           <li class="nav-item active" style="background-color:#CEC3A0">
-            <a class="nav-link" href="index.html" style="color:black">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#" style="color:black">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">About Us</a>
@@ -196,7 +210,7 @@ Dr. Jitendra Arolia </b>
 
 
 
-      <div class="col-sm-6 col-md-3"><!--col-sm-6 col-md-3 begin-->
+      <div class="col-4 col-sm-4 col-md-4 col-xl-4"><!--col-sm-6 col-md-3 begin-->
         <h4>Find Us</h4>
 
         <p style="color:white"><!--p begin-->
@@ -211,7 +225,7 @@ Dr. Jitendra Arolia </b>
           <hr class="hidden-md hidden-lg">
       </div><!--col-sm-6 col-md-3 finished-->
 
-      <div class="col-sm-6 col-md-3" id="social">
+      <div class="col-4 col-sm-4 col-md-4 col-xl-4" id="social">
 
         <h4>Keep In Touch</h4>
 
